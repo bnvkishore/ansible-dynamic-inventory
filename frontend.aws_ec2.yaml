@@ -13,5 +13,5 @@ filters:
 
 keyed_groups:
 # This creates host groups based on architecture.
-  - key: ec2_tags
+  - key: tags.name
     separator: ''
