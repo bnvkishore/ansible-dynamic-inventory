@@ -12,6 +12,5 @@ filters:
   instance-state-name : running
 
 keyed_groups:
-# This creates host groups based on architecture.
   - key: tags.name
     separator: ''
